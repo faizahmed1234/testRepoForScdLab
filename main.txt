@@ -1,3 +1,5 @@
+//Did some changes in branch01
+
 public class IntegerOperations {
     public static boolean isOdd(int num) {
         return num % 2 != 0;
@@ -27,6 +29,5 @@ public class IntegerOperations {
         for (int i = 2; i <= num; i++) {
             result *= i;
         }
-        return result;
     }
 }
